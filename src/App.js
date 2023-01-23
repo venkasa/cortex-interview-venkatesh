@@ -9,6 +9,7 @@ import settings7 from "./assets/settings7.png";
 import user8 from "./assets/user8.png";
 import logo from "./assets/logo.png";
 import heroImage from "./assets/heroImage.png";
+import Chevron from "./assets/Chevron.svg";
 
 function App() {
   return (
@@ -60,9 +61,10 @@ function App() {
                 Curabitur id augue vitae sapien aliquam ullamcorper efficitur ac
                 nunc. Aliquam in justo.
               </div>
-              <div className="btn">
-                <div className="get-started">get started</div>
-              </div>
+              <button className="get-started">
+                <b>get started</b>
+                <img src={Chevron} alt="chevron" />
+              </button>
             </div>
             <div className="hero-right">
               <img
