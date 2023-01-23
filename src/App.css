@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+.sidebar-align {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 16px;
+  padding-right: 10px;
+  height: 1vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidebar {
+  width: 66px;
+  height: 740px;
+  background-color: #d3483d;
+  border-radius: 0px 0px 34px 34px;
+  top: 16px;
+  left: 1518px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar-top {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  height: 50%;
+}
+
+.icons {
+  width: 24px;
+  height: 26px;
+}
+
+.sidebar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 30%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 122px;
+  height: 75px;
+  margin-left: 100px;
+}
+
+.links-layout {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  width: 50%;
+}
+
+.links {
+  text-decoration: none;
   color: white;
+  margin: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.links:hover {
+  background-color: #333;
+  color: white;
+  transition: all 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.get-started {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  margin-left: 100px;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.find-a-doctor {
+  text-transform: uppercase;
+  color: white;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.lorem-ipsum {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 45px;
+}
+
+.btn {
+  border-radius: 25px;
+  color: #d3483d;
+  width: 192px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-right-image {
+  width: 600px;
+  height: 600px;
+  margin-right: 100px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: flex-start;
 }
