@@ -61,7 +61,12 @@
 .links {
   text-decoration: none;
   color: white;
-  margin: 0 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.links:hover {
+  transition: all 0.3s;
+  border-bottom: 2px solid white;
 }
 
 .links:hover {
@@ -104,7 +109,7 @@
   margin-bottom: 45px;
 }
 
-.btn {
+.get-started {
   border-radius: 25px;
   color: #d3483d;
   width: 192px;
@@ -112,8 +117,15 @@
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-transform: uppercase;
   margin-bottom: 50px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.get-started:hover {
+  box-shadow: 0 0 5px #333;
 }
 
 .hero-section {
@@ -128,4 +140,5 @@
   margin-top: 80px;
   display: flex;
   justify-content: flex-start;
+  object-fit: contain;
 }
